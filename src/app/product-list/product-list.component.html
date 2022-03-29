@@ -1,0 +1,14 @@
+<h2>Drum Machine</h2>
+
+<button (click)="setActive()" style="button">Play</button>
+<table>
+  <tr *ngFor="let instrument of instruments">
+    <th>{{ instrument }}</th>
+    <th [ngClass]="active ? 'active-style' : 'inactive-style'">
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+    </th>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+  </tr>
+</table>

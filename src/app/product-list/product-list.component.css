@@ -1,0 +1,10 @@
+.active-style {
+  background-color: green;
+}
+.inactive-style {
+  background-color: red;
+}
+
+.button {
+  align-items: right;
+}
